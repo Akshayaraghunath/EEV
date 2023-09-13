@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% block index %}
+<form class="reg" action="" method="post">
+{%csrf_token%}
+<h3>Customer SignUP</h3>
+
+
+{{form}}
+<button>Sign UP</button>
+<div class="Social">
+    Already a user?.<a href="{% url 'regg' %}">Sign In</a>
+</div>
+</form>
+{%endblock index %}

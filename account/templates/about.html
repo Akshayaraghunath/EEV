@@ -1,0 +1,29 @@
+{% extends 'navbar.html' %}
+{% block content %}
+{%load static%}
+<h1 class="text-center bg-bg-secondary">ABOUT</h1>
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img height="500px" src="{%static 'img/downloadd.jpg'%}" alt="">
+          </div>
+          
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Electric Vehicle Charging Stations</h3>
+            <p class="fst-italic">
+              Electric vehicles are the future of transport. We believe it should be easy to make the switch. We work with and can install most brands of EV charger, meaning you can choose the perfect charger for your needs.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> We help you to find nearby stations</li>
+              <li><i class="bi bi-check-circle"></i>We help you to find nearby service stations</li>
+              <li><i class="bi bi-check-circle"></i>Helps to book stations</li>
+            </ul>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    {%endblock content%}
