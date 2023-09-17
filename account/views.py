@@ -61,6 +61,9 @@ class ChargeHomeView(ListView):
     context_object_name='char'
 
 
+    
+
+
 class StationHomeView(ListView):
     # def get(self,request):
     #     return render(request,'station.html')
